@@ -4,3 +4,4 @@ To run the game:
 1. Download the source code - `git clone https://github.com/nadavsu/checkers`
 2. Navigate to source code in terminal
 3. Run `make`
+4. Run `./build/checkers`
