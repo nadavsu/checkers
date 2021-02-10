@@ -15,7 +15,6 @@ OBJS := $(subst src,$(ODIR),$(patsubst %.c,%.o,$(SRCS)))
 
 .PHONY: all
 all: $(ODIR)/$(TARGET_NAME)
-	./$(ODIR)/$(TARGET_NAME)
 
 #magic variables: $@ == target, $^ == all prequisites, $< == first prequisite
 $(ODIR)/%.o : $(SRCDIR)/%.c
